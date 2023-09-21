@@ -1,7 +1,5 @@
-# Portfolio-Website-Using-React![Screenshot 2023-09-22 022912](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/af220372-f9ae-4121-8ed7-80b798d6e93a)
-![Screenshot 2023-09-22 022838](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/fc0fdaea-4958-479f-92ea-2d7f7df87511)
-![Screenshot 2023-09-22 022805](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/151ae512-29cf-41cc-b1cb-47e7a5f2c26e)
-![Screenshot 2023-09-22 022726](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/8ea7e5b4-6e52-4af1-a18a-97c803d36846)
-![Screenshot 2023-09-22 022620](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/ed1f08f7-debc-4cdb-bcc5-fd17a751d369)
-
-
+![Screenshot 2023-09-22 022620](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/0f45d56f-0f2c-4822-a5ea-4e68d1fc44d2)
+![Screenshot 2023-09-22 022726](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/8a9a1de3-d550-47f3-8771-0a0fc0afbc37)
+![Screenshot 2023-09-22 022805](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/9e908935-112d-4653-ad82-0b6d3c208874)
+![Screenshot 2023-09-22 022838](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/498d1492-a032-4ef2-93de-0eb590a6d9e2)
+![Screenshot 2023-09-22 022912](https://github.com/bargand/Portfolio-Website-Using-React/assets/119047700/58d87887-53af-4965-9e0e-d4f97520673c)
