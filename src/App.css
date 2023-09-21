@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR STYLING */
+
+nav {
+  display: flex;
+  justify-content: space-between;  
+  height: 72px;
+  margin: 0 auto;
+  align-items: center;
+  list-style: none;
+  background-color: transparent;
+  /* position: fixed; */
+}
+nav ul {
+  margin-right: 100px;
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.listStyle {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #ffffff15;
+  border: 2px solid #ffffff15;
+  border-radius: 10px;
+  padding: 5px;
+}
+@media (max-width: 767px){
+  nav {
+    justify-content: center;
+  }
+  nav ul {
+    margin-right: 0px;
+  }
+}
+.HomeO{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+.HomeLeft{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  font-size: 25px;
+}
+.HomeH{
+  font-weight: 400;
+  color: #fff;
+}
+.HomeSpan{
+  color: #c770f0;
+}
+.HomeRight{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.HomeRight img{
+  width: 500px;
+}
+
+@media (max-width: 767px){
+  .HomeO{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    flex-wrap: wrap;
+  }
+  .HomeLeft{
+    width: 100%;
+    height: 50%;
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  .HomeRight{
+    width: 100%;
+    height: 35%;
+  }
+  .HomeRight img{
+    width: 250px;
+  }
+}
+
+.HomeT{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin-top: 100px;
+}
+.HomeTLeft{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  color: #fff;
+}
+.HomeTRight{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.HomeTLeft h1{
+  font-size: 40px;
+}
+.HomeTLeft p{
+  font-size: 15px;
+  margin-top: 30px;
+  padding-right: 100px;
+}
+.HomeTRight img{
+  width: 400px;
+}
+
+.HomeTICON{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  line-height: 60px;
+  color: #fff;
+}
+.HomeTICON ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+
+}
+.HomeTICON ul li{
+  list-style: none;
+  text-decoration: none;
+}
+.social-icons a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  width: 35px;
+  height: 35px;
+  margin: 0px 5px;
+  color: #801f95;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+.social-icons a:hover{
+  box-shadow: 0 0 15px #801f95;
+}
+.MainFooter{
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 100px;
+  background-color: #000000a6;
+}
+.MainFooter ul{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.aboutO{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* overflow: hidden; */
+  /* max-width: 100%; */
+  /* margin-top: 100px; */
+}
+.aboutLeft{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  color: #fff;
+}
+.aboutLeft h1{
+  color: #fff;
+  font-size: 40px;
+}
+.aboutRight{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutLeft h1{
+  font-size: 40px;
+}
+.AboutLeft p{
+  font-size: 15px;
+  margin-top: 30px;
+  padding-right: 100px;
+}
+.aboutRight img{
+  width: 400px;
+  height: 400px;
+  border: 1px solid #801f95;
+  border-radius: 50%;
+}
+.AboutS{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 300px;
+  line-height: 100px;
+}
+.SkillH h1{
+  color: #fff;
+  font-size: 40px;
+}
+.SkillsI{
+  margin-top: 30px;
+  display: flex;
+  font-size: 72px;
+  gap: 24px;
+  flex-wrap: wrap;
+  color: #fff;
+  /* border: 2px solid #801f95;
+  padding: 50px; */
+}
+.SkillsI .SkillOne{
+  width: 190px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #801f95;
+  border-radius: 10px;
+  box-shadow: 2px 2px #7f1f9549;
+  filter: blur(.1px);
+}
